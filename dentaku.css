@@ -1,0 +1,21 @@
+#resultBox{background-color: black;
+  color: white;
+  width: 500px;
+  height: 30px;
+}
+  
+.container {background-color: white;
+  width: 500px;
+  
+}
+.container .button {display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  
+}
+.num-button{color: black;
+
+}
+.button{background-color: white;
+border: solid 2px;
+}
