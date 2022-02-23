@@ -1,0 +1,42 @@
+.container {
+  width: 200px;
+  margin: 50px auto;
+}
+
+.output {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.input {
+  width:200px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  
+  width: 200px;
+}
+
+
+.num_bth, #clear, #equal_btn{
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 10%;
+  background: lightgray;
+  cursor: pointer;
+  margin: 1px;
+}
+
+#clear{width: 50%;}
+#equal_btn{width: 50%;}
